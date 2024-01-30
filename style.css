@@ -58,6 +58,7 @@ Button Style
     border-radius: 5px;
     font-size: 12px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .button-full {
@@ -83,7 +84,7 @@ Content Task Style
     margin-top: 2px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding: 0px 50px;
+    padding: 0px 50px 30px;
     color: #434851;
 }
 
@@ -114,15 +115,7 @@ Content Task Style
     padding: 8px 0;
 }
 
-.icon-checked {
-    border-color: #33c8ae;
-    color: #33c8ae;
-}
 
-.icon-delete {
-    border-color: #ff1b1b;
-    color: #ff1b1b;
-}
 
 .task {
     display: inline-block;
@@ -140,7 +133,24 @@ Content Task Style
     border-radius: 8px;
 }
 
-/* ----------------
+/* 
+-------------------
+Icon Colors
+-------------------
+*/
+
+.icon-checked {
+    border-color: #33c8ae;
+    color: #33c8ae;
+}
+
+.icon-delete {
+    border-color: #ff1b1b;
+    color: #ff1b1b;
+}
+
+/* 
+-------------------
 Label Colors
 -------------------
 */
