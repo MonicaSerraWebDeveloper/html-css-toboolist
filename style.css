@@ -87,6 +87,10 @@ Content Task Style
     color: #434851;
 }
 
+.content-task-container {
+    padding-top: 30px;
+}
+
 .icon-title {
     font-size: 11px;
 }
@@ -106,14 +110,18 @@ Content Task Style
     padding: 10px 0;
 }
 
+.list-task {
+    padding: 8px 0;
+}
+
 .icon-checked {
-    border-color: #ff1b1b;
-    color: #ff1b1b;
+    border-color: #33c8ae;
+    color: #33c8ae;
 }
 
 .icon-delete {
-    border-color: #33c8ae;
-    color: #33c8ae;
+    border-color: #ff1b1b;
+    color: #ff1b1b;
 }
 
 .task {
@@ -132,6 +140,31 @@ Content Task Style
     border-radius: 8px;
 }
 
+/* ----------------
+Label Colors
+-------------------
+*/
+
 .label-blue {
     background-color: #09a9ed;
+}
+
+.label-purple {
+    background-color: #ab5de6;
+}
+
+.label-green {
+    background-color: #2cc6ab;
+}
+
+.label-orange {
+    background-color: #ff9b00;
+}
+
+.label-pink {
+    background-color: #ec4a9d;
+}
+
+.label-acid {
+    background-color: #a3d116;
 }
