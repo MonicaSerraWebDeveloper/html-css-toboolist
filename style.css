@@ -34,3 +34,41 @@ header {
     font-size: 38px;
 }
 
+/* 
+----------------
+Button Style
+---------------- 
+*/
+
+.main-container {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.button-container {
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 14px 50px;
+}
+
+.button {
+    padding: 5px 10px;
+    border: 1px solid ;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.button-full {
+    background-color: #14aaf5;
+    color: #fff;
+    border-color: #14aaf5;
+}
+
+.button-empty {
+    background-color: #fff;
+    color: #c4cbd0;
+    border-color: #c4cbd0;
+}
+
