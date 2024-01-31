@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     background-color: #f6f8f9;
 }
 
@@ -95,8 +95,6 @@ Content Task Style
 .icon-title {
     font-size: 11px;
 }
-
-
 
 .icon {
     display: inline-block;
